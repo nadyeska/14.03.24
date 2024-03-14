@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#txtPixel {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#imgAvatar {
+    position: absolute;
+    top: 50px; /* Posição inicial superior */
+    left: 50px; /* Posição inicial à esquerda */
+    transform: rotate(0deg); /* Ângulo inicial */
+}
+
+.container {
+    position: relative;
+    width: 100%; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+    overflow: hidden;
+}
+
+.slideImage {
+    position: absolute;
+    left: -100%; /* Comece fora da tela */
+}
